@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #333; /* Color de fondo del header */
+    color: #fff; /* Color del texto en el header */
+    padding: 20px 0; /* Espaciado interno superior e inferior del header */
+  }
+  
+  /* Estilos para la barra de navegación dentro del header */
+nav {
+    text-align: center; /* Alineación del contenido del nav en el centro */
+}
+  
+  /* Estilos para los elementos de la barra de navegación */
+  nav ul {
+    list-style: none; /* Elimina las viñetas de la lista */
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline; /* Muestra los elementos de navegación en línea (en una fila) */
+    margin-right: 20px; /* Espaciado entre elementos de navegación */
+  }
+  
+  /* Estilos para los enlaces dentro del header */
+  nav a {
+    color: #fff; /* Color de los enlaces en el header */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+  }
+  
+  /* Estilos para los enlaces hover dentro del header */
+  nav a:hover {
+    text-decoration: underline; /* Subrayado en los enlaces al pasar el mouse */
+  }
+  
+
+
+main {
+    height: 100vh;
+    flex: 1; /* El main ocupa todo el espacio restante */
+    padding: 20px;
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
+
+
+
+/* Estilos para el footer */
+footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto en el footer */
+  padding: 20px 0; /* Espaciado interno superior e inferior del footer */
+  text-align: center; /* Alineación del contenido en el centro */
+}
+
+/* Estilos para los enlaces dentro del footer */
+footer a {
+  color: #fff; /* Color de los enlaces en el footer */
+  text-decoration: none; /* Sin subrayado en los enlaces */
+  margin: 0 10px; /* Espaciado horizontal entre los enlaces */
+}
+
+/* Estilos para los enlaces hover dentro del footer */
+footer a:hover {
+  text-decoration: underline; /* Subrayado en los enlaces al pasar el mouse */
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px 0; /* Espaciado interno superior e inferior del footer */
+    text-align: center; /* Alineación del contenido en el centro */
+  }
+  
+  /* Estilos para los enlaces dentro del footer */
+  footer a {
+    color: #fff; /* Color de los enlaces en el footer */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    margin: 0 10px; /* Espaciado horizontal entre los enlaces */
+  }
+  
+  /* Estilos para los enlaces hover dentro del footer */
+  footer a:hover {
+    text-decoration: underline; /* Subrayado en los enlaces al pasar el mouse */
+  }
+  
+
+
+.reloj {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#hora {
+    font-size: 36px;
+}
